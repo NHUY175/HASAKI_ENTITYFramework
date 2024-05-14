@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBH_HASAKIModelStoreContainer" CdmEntityContainer="QLBH_HASAKI">
+    <EntitySetMapping Name="BAN_HANG">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.BAN_HANG">
+        <MappingFragment StoreEntitySet="BAN_HANG">
+          <ScalarProperty Name="MaBanHang" ColumnName="MaBanHang" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="SoLuongMua" ColumnName="SoLuongMua" />
+          <ScalarProperty Name="ChiPhi" ColumnName="ChiPhi" />
+          <ScalarProperty Name="DoanhThu" ColumnName="DoanhThu" />
+          <ScalarProperty Name="LoiNhuan" ColumnName="LoiNhuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUC_VU">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.CHUC_VU">
+        <MappingFragment StoreEntitySet="CHUC_VU">
+          <ScalarProperty Name="MaChucVu" ColumnName="MaChucVu" />
+          <ScalarProperty Name="TenChucVu" ColumnName="TenChucVu" />
+          <ScalarProperty Name="SoLuongNV" ColumnName="SoLuongNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOA_DON">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.HOA_DON">
+        <MappingFragment StoreEntitySet="HOA_DON">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="NgayTaoHD" ColumnName="NgayTaoHD" />
+          <ScalarProperty Name="TriGia" ColumnName="TriGia" />
+          <ScalarProperty Name="KhuyenMai" ColumnName="KhuyenMai" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOA_DON_CT">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.HOA_DON_CT">
+        <MappingFragment StoreEntitySet="HOA_DON_CT">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="SoLuongMua" ColumnName="SoLuongMua" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TongGia" ColumnName="TongGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACH_HANG">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.KHACH_HANG">
+        <MappingFragment StoreEntitySet="KHACH_HANG">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="NgSinhKH" ColumnName="NgSinhKH" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAI_SAN_PHAM">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.LOAI_SAN_PHAM">
+        <MappingFragment StoreEntitySet="LOAI_SAN_PHAM">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHAN_VIEN">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.NHAN_VIEN">
+        <MappingFragment StoreEntitySet="NHAN_VIEN">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="NgSinhNV" ColumnName="NgSinhNV" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="MaChucVu" ColumnName="MaChucVu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEU_DOI_TRA">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.PHIEU_DOI_TRA">
+        <MappingFragment StoreEntitySet="PHIEU_DOI_TRA">
+          <ScalarProperty Name="MaPDT" ColumnName="MaPDT" />
+          <ScalarProperty Name="NgayLap" ColumnName="NgayLap" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="SoLuongDoi" ColumnName="SoLuongDoi" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="LyDoDoiTra" ColumnName="LyDoDoiTra" />
+          <ScalarProperty Name="YeuCauDoiTra" ColumnName="YeuCauDoiTra" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEU_NHAP">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.PHIEU_NHAP">
+        <MappingFragment StoreEntitySet="PHIEU_NHAP">
+          <ScalarProperty Name="MaNhap" ColumnName="MaNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NhaCungCap" ColumnName="NhaCungCap" />
+          <ScalarProperty Name="TongGiaTriNhap" ColumnName="TongGiaTriNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEU_NHAP_CT">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.PHIEU_NHAP_CT">
+        <MappingFragment StoreEntitySet="PHIEU_NHAP_CT">
+          <ScalarProperty Name="MaNhap" ColumnName="MaNhap" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="SoLuongNhap" ColumnName="SoLuongNhap" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="DonGiaNhap" ColumnName="DonGiaNhap" />
+          <ScalarProperty Name="TongNhap" ColumnName="TongNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEU_XUAT">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.PHIEU_XUAT">
+        <MappingFragment StoreEntitySet="PHIEU_XUAT">
+          <ScalarProperty Name="MaXuat" ColumnName="MaXuat" />
+          <ScalarProperty Name="NgayXuat" ColumnName="NgayXuat" />
+          <ScalarProperty Name="TongGiaTriXuat" ColumnName="TongGiaTriXuat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEU_XUAT_CT">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.PHIEU_XUAT_CT">
+        <MappingFragment StoreEntitySet="PHIEU_XUAT_CT">
+          <ScalarProperty Name="MaXuat" ColumnName="MaXuat" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="SoLuongXuat" ColumnName="SoLuongXuat" />
+          <ScalarProperty Name="DonGiaXuat" ColumnName="DonGiaXuat" />
+          <ScalarProperty Name="TongXuat" ColumnName="TongXuat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SAN_PHAM">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.SAN_PHAM">
+        <MappingFragment StoreEntitySet="SAN_PHAM">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="DonViTinh" ColumnName="DonViTinh" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="GiaBan" ColumnName="GiaBan" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAI_KHOAN">
+      <EntityTypeMapping TypeName="QLBH_HASAKIModel.TAI_KHOAN">
+        <MappingFragment StoreEntitySet="TAI_KHOAN">
+          <ScalarProperty Name="MaTaiKhoan" ColumnName="MaTaiKhoan" />
+          <ScalarProperty Name="TenTaiKhoan" ColumnName="TenTaiKhoan" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="PhanQuyen" ColumnName="PhanQuyen" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

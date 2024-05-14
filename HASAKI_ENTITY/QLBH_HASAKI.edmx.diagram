@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7dbff527485d47a88d973563c96e50e9" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.BAN_HANG" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.CHUC_VU" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.HOA_DON" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.HOA_DON_CT" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.KHACH_HANG" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.LOAI_SAN_PHAM" Width="1.5" PointX="0.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.NHAN_VIEN" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.PHIEU_DOI_TRA" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.PHIEU_NHAP" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.PHIEU_NHAP_CT" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.PHIEU_XUAT" Width="1.5" PointX="3" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.PHIEU_XUAT_CT" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.SAN_PHAM" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBH_HASAKIModel.TAI_KHOAN" Width="1.5" PointX="5.25" PointY="24.375" IsExpanded="true" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_BAN_HANG_HOA_DON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_BAN_HANG_KHACH_HANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_BAN_HANG_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_BAN_HANG_SAN_PHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_NHAN_VIEN_CHUC_VU" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_HOA_DON_CT_HOA_DON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_DOI_TRA_HOA_DON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_SAN_PHAM_LOAI_SAN_PHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_DOI_TRA_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_NHAP_CT_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_XUAT_CT_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_TAI_KHOAN_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_NHAP_CT_PHIEU_NHAP" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBH_HASAKIModel.FK_PHIEU_XUAT_CT_PHIEU_XUAT" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
